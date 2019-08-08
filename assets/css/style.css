@@ -1,0 +1,164 @@
+#header {
+	background-color: #014b68;
+	padding: 15px;
+}
+
+#header .container {
+	text-align: center;
+}
+
+#header img.logo {
+	max-width: 100px;
+}
+
+#header h3 {
+	font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 0;
+    color: #fff;
+}
+
+#fundo-login {
+	height: -webkit-fill-available;
+	background-image: linear-gradient(180deg,rgba(49, 179, 228, 0.9) 0%,rgba(1, 75, 104, 0.9) 100%),url(../images/fundo-rio-de-janeiro.jpg);
+    background-size: cover;
+	align-items: center;
+    display: flex;
+}
+
+.login {
+	/*background-color: rgba(255, 255, 255, 0.9);*/
+    border-radius: 5px;
+    text-align: center;
+    padding: 30px 70px 20px;
+    max-width: 460px;
+    margin: auto;
+}
+
+.login img.logo {
+	max-width: 160px;
+    /*margin-top: -90px;*/
+}
+
+.login h1 {
+	font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.login h3 {
+	font-size: 20px;
+	margin-top: 0;
+	margin-bottom: 30px;
+	color: #fff;
+}
+
+.login .form-control {
+	background-color: #e7e7e7;
+    border: none;
+    padding: 25px 20px;
+}
+
+.login .btn {
+	background-color: #31b3e4;
+	border-color: #31b3e4;
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.login .btn:hover {
+	opacity: .7;
+}
+
+.login .btn:focus {
+	background-color: #31b3e4;
+    border-color: #31b3e4;
+}
+
+#fundo-topo h1 {
+	padding-bottom: 40px;
+}
+
+#fundo-topo .col-md-12 .col-md-5 {
+	padding-left: 0;
+	padding-right: 30px;
+}
+
+#fundo-topo .col-md-12 .col-md-7 {
+	padding-left: 30px;
+	padding-right: 0;
+}
+
+#fundo-topo .form-control {
+	border: 1px solid #014b68;
+    padding: 14px 15px;
+    height: auto;
+}
+
+#fundo-topo .btn {
+	color: #fff;
+    width: 30%;
+    margin: 66px 1.4% 0;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+#fundo-topo .btn:hover {
+	opacity: .7;
+}
+
+#fundo-topo .btn-buscar {
+	background-color: #31b3e4;
+    border: #31b3e4;
+}
+
+#fundo-topo .btn-buscar:focus {
+	background-color: #31b3e4;
+    border-color: #31b3e4;
+}
+
+#fundo-topo .btn-limpar {
+	background-color: #4ea64e;
+    border: #4ea64e;
+}
+
+#fundo-topo .btn-limpar:focus {
+	background-color: #4ea64e;
+    border-color: #4ea64e;
+}
+
+#fundo-topo .btn-novo {
+	background-color: #014b68;
+    border: #014b68;
+}
+
+#fundo-topo .btn-novo:focus {
+	background-color: #014b68;
+    border-color: #014b68;
+}
+
+#fundo-base hr {
+    border-top: 1px solid #014b68;
+}
+
+#fundo-topo .form-cadastrar .btn {
+    margin-top: 260px;
+}
+
+#fundo-topo .form-editar .btn {
+    margin-top: 208px;
+}
+
+::-webkit-input-placeholder {color: #555 !important;}
+:-moz-placeholder {color: #555 !important;}
+::-moz-placeholder {color: #555 !important;}
+:-ms-input-placeholder {color: #555 !important;}
