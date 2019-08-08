@@ -83,7 +83,7 @@ $dados = $u->getUsuarios($_SESSION['login']);
 			      <th scope="row"><?php echo $usuario['nome'] ?></th>
 			      <td><?php echo $usuario['login'] ?></td>
 			      <td><?php echo $usuario['status'] ?></td>
-			      <td><a href="editar.php?id=<?php echo $usuario['id'] ?>" class="btn btn-primary btn-sm btn-editar">Editar</a> <a href="javascript:;" onclick="excluir('<?php echo $usuario['id']; ?>');" class="btn btn-danger btn-sm btn-excluir">Excluir</a></td>
+			      <td><a href="editar.php?id=<?php echo $usuario['id'] ?>" class="btn btn-primary btn-sm btn-editar">Editar</a> <a href="excluir.php?id=<?php echo $usuario['id'] ?>" class="btn btn-danger btn-sm btn-excluir">Excluir</a></td>
 			    </tr>
 			  	<?php
 			  }

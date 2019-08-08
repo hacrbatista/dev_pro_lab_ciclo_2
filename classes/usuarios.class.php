@@ -119,6 +119,15 @@ class Usuarios {
 
 	}
 
+	public function excluirUsuario($id) {
+		global $pdo;
+
+		$sql = $pdo->prepare("DELETE FROM usuarios WHERE id = :id");
+		$sql->bindValue(":id", $id);
+		$sql->execute();
+
+	}
+
 }
 
 ?>
